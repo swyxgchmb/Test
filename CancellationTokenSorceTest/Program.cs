@@ -11,6 +11,7 @@ namespace CancellationTokenSorceTest
     {
         static void Main(string[] args)
         {
+            //Test
             var notifier = new CancellationTokenSource();
             int a = 10;
             Task.Factory.StartNew(() =>
